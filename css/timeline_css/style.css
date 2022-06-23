@@ -187,22 +187,6 @@
   background-repeat: no-repeat;
 }
 
-@media only screen and (min-width: 1000px) {
-  .img {
-    width: 430px;
-    height: 430px;
-  }
-  .img-tall {
-    width: 380px;
-    height: 430px;
-  }
-  .img-wide {
-    margin-top: 10%;
-    width: 430px;
-    height: 350px;
-  }
-}
-
 .main-timeline .content {
   display: table;
   padding-right: 40px;
@@ -425,53 +409,30 @@
   }
 }
 
-@media only screen and (min-width: 1000px) {
-  .main-timeline:before {
-    left: 100%;
+@media only screen and (min-width: 1200px) {
+  .img {
+    width: 330px;
+    height: 330px;
   }
-  .main-timeline .timeline {
-    width: 100%;
-    float: none;
-    margin-bottom: 20px !important;
+  .img-tall {
+    width: 280px;
+    height: 330px;
   }
-  .anchor-container {
-    width: 50%;
+  .img-wide {
+    margin-top: 10%;
+    width: 330px;
+    height: 250px;
   }
-  .main-timeline .timeline-content {
-    text-align: center;
-    margin-top: 8px;
-    position: relative;
-    transition: all 0.3s ease 0s;
-    vertical-align: middle;
-    display: flex;
-    width: 100%;
-  }
-  .main-timeline .timeline-content:before {
-    width: 93%;
-    left: 100px;
-  }
-  .main-timeline .timeline:nth-child(2n) .icon {
-    right: -28%;
-    left: auto;
-  }
-  .main-timeline .timeline:nth-child(2n) .icon:before,
-  .main-timeline .timeline:nth-child(2n) .icon span:before,
-  .main-timeline .timeline:nth-child(2n) .icon span:after {
-    left: -28%;
-    right: auto;
-    height: 0;
-  }
-  /* .main-timeline .timeline:first-child:before,
-  .main-timeline .timeline:last-child:before {
-    left: 0 !important;
-    right: 0 !important;
-  } */
   .main-timeline .circle,
   .main-timeline .timeline .circle {
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     float: left;
+
     margin: 0 25px 0 0;
+  }
+  .main-timeline .circle:nth-child(2n) {
+    left: -50%;
   }
   .main-timeline .timeline .circle:before {
     right: 0px;
@@ -487,28 +448,5 @@
     left: auto;
     border: none;
     border-radius: none;
-  }
-  .main-timeline .timeline .content {
-    padding: 0 21px 0 0;
-    margin-left: 0;
-  }
-  .main-timeline .timeline .icon {
-    right: -185px;
-    left: auto;
-  }
-  .main-timeline .timeline .icon:before,
-  .main-timeline .timeline .icon span:before,
-  .main-timeline .timeline .icon span:after {
-    left: -15px;
-    right: auto;
-  }
-  .main-timeline .timeline .icon span:before {
-    border-radius: 0 0 21px 0;
-  }
-  .main-timeline .timeline .icon span:after {
-    border-radius: 0 21px 0 0;
-  }
-  .main-timeline .timeline {
-    margin: 0;
   }
 }
