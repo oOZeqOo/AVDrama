@@ -367,6 +367,21 @@
   }
 }
 @media only screen and (max-width: 480px) {
+    .img {
+    margin-top: 2%;
+    width: 110px;
+    height: 110px;
+  }
+  .img-tall {
+    margin-top: 2%;
+    width: 100px;
+    height: 110px;
+  }
+  .img-wide {
+    margin-top: 9%;
+    width: 110px;
+    height: 90px;
+  }
   .main-timeline:before {
     left: 0;
   }
