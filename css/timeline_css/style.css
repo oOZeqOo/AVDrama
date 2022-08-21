@@ -3,18 +3,18 @@
 }
 
 .timeline-nav {
-  /* margin-left: 5%; */
-  /* margin-top: 20px; */
+  background-color: pink;
   display: flex;
+  height: 50px;
+  justify-content: center;
   justify-content: space-around;
-  height: 5%;
   overflow-x: auto;
-  width: 100vw;
+  overflow-y: hidden;
   position: fixed;
   top: 0;
-  z-index: 1000;
+  vertical-align: middle;
   width: 100%;
-  background-color: pink;
+  z-index: 1000;
 }
 
 .anchor-container {
@@ -23,7 +23,7 @@
 }
 
 .timeline-nav a {
-  margin: 5px;
+  margin: 10px 5px;
   text-decoration: none;
   border: 1px solid black;
   border-radius: 5px;
